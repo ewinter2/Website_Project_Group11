@@ -2,4 +2,9 @@
 {% block content %}
     <h2>Welcome to some e-commerce website</h2>
     <p>Take a look at our selection of clothing.</p>
+
+    <!-- Need to put image below the search bar -->
+    <div class="home-image">
+        <img src="{{ url_for('static', filename='images/home_page_image.png') }}" alt="Home Banner" style="width: 100%; max-height: 650px; object-fit: cover;">
+    </div>
 {% endblock %}
